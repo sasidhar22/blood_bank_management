@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700'; 
+
+body { 
+	margin:0;
+ }
+
+header {
+	background:black;
+	color:white;
+	padding:0px 0px 0px 0px;
+	height:45px;
+}
+
+header h1{
+	display:inline;
+	font-family:'Oswald',sans-serif;
+	font-weight: 400;
+	font-size:24px;
+	float:left;
+	margin-top:5px;
+	margin-left: 4px;
+	margin-right:10px;
+}
+nav ul{
+	display:inline;
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:12px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#nav{
+	font-family:'Montserrat',sans-serif;
+}
+.homered{
+	background-color:red;
+	padding:25px 5px 15px 5px;
+}
+.divider{
+	background-color:red;
+	height:5px;
+	padding: 0px;
+}
+.homeblack:hover{
+	background-color:blue;
+	padding:25px 10px 15px 10px;
+}
+
+nav ul li.homeblue {
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:right;
+	margin-right:12px;
+}
+
+button a {
+	padding-left:2px;
+	padding-right:2px;
+	color:white;
+	text-decoration:none;
+	background:#ff5722;
+	transition:0.2s;
+}
+
+h1 i:hover{
+	color:orange;
+}
+
+.block{
+	border:none;
+	background:#ff5722;
+	padding:10px 20px;
+	font-size:16px;
+	cursor:pointer;
+	text-align:center;
+}

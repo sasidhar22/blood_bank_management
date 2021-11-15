@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration form for Blood Donation</title>
+<link rel="stylesheet" href="donate.css">
+	<style type="text/css">
+		body {
+			background-image: url("donateimg.jpg");
+			background-color:lightgray; 
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Blood Bank Management</h1>  
+			<ul id="nav"> 
+				<li><a class="homeblue" href="index.html" title="Dear user this is the home page.">HOME</a></li>
+				<li><a class="homeblue" href="bloodstats.html" title="graph of blood donations in the previous years">STATISTICAL DATA</a></li>
+				<li><a class="homered" href="#" title="donate and save lives">DONATE</a></li>
+				<li><a class="homeblue" href="aboutus.html" title="find some information about us here..">ABOUT US</a></li>
+				<li><a class="homeblue" href="login.html" title="already a user? please login here">LOGIN</a></li>
+				<li><a class="homeblue" href="signup.html" title="new user? create your account here">SIGN UP</a></li>
+				<li><a class="homeblue" href="feedback.html" title="Give your feedback on our website here">FEEDBACK</a></li>
+			</ul> 
+		</nav>
+	</header>
+	<div class="divider"></div>
+<pre><marquee><font size="28">Donate blood and save lives</font></marquee></pre>
+<div align="center" class="reg-box">
+	<div align="left" class="same-box">
+<form method ="get">
+		<h1>DONATION FORM</h1>
+        NAME: <input class="input-box" type="text" placeholder="kkk" maxlength="40" required/><br/>
+        Age:  <input class="input-box" type="number"  required /><br/>
+        Address: <br/>
+        	<textarea class="input-box" name="Address" rows="1" cols="100" required/>Type your address here.</textarea><br/>
+    	Occupation:<input class="input-box" type="text" placeholder="eg:business" required//><br/>
+        MobileNumber:<input class="input-box" type="tel" required/><br/>
+        Email:<input class="input-box" type="email" id="email" name="email" required/><br/>
+        Gender:
+			<input type="radio" name="p"/>Male<br/>
+			<input type="radio" name="p"/>Female<br/>
+			<input type="radio" name="p" required/>Others<br/>
+			<br/>
+			<br/>
+		Select Your Country:
+			<select class="input-box">
+				<option>INDIA</option>
+			</select>  <br/>
+    	Select Your Blood Group:
+			<select class="input-box">
+				<option>O+</option>
+				<option>O-</option>
+				<option>A+</option>
+				<option>A-</option>
+				<option>B+</option>
+				<option>B-</option>
+				<option>AB-</option>
+				<option>AB+</option>
+			</select>  <br/>
+ 		Did you donate your blood previously:
+			<select class="input-box">
+				<option>Yes</option>
+				<option>No</option>
+			</select>  <br/>
+		<input  type="submit" class="submit-btn" value="submit" required/>
+		<button type="button" class="block"><a href="index.html">Return to home page</a></button>
+</form>
+</div>
+</div>
+</body>
+</html>

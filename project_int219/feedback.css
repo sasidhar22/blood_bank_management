@@ -1,0 +1,182 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700'; 
+
+body {
+	height:1700;
+	color:white;
+	margin:0;
+	padding:0;
+	font-size:16px;
+	color:#777;
+	font-family:sans-serif;
+	background-color:lightgray;
+	background-image: (rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	background-position:center;
+	background-size:cover;
+	font-weight:300;
+}
+
+header {
+	background:black;
+	color:white;
+	padding:0px 0px 0px 0px;
+	height:45px;
+}
+
+header h1{
+	color:white;
+	display:inline;
+	font-family:'Oswald',sans-serif;
+	font-weight: 400;
+	font-size:24px;
+	float:left;
+	margin-top:5px;
+	margin-left: 4px;
+	margin-right:10px;
+}
+nav ul{
+	display:inline;
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:12px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#nav{
+	font-family:'Montserrat',sans-serif;
+}
+
+.homered:hover{
+	background-color:blue;
+	padding:25px 5px 15px 5px;
+}
+.divider{
+	background-color:red;
+	height:5px;
+	padding: 0px;
+}
+
+.homefeed{
+	background-color:red;
+	padding:25px 10px 15px 10px;
+}
+
+nav ul li.homeblue {
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:right;
+	margin-right:12px;
+}
+
+.homeblue:hover{
+	background-color:blue;
+	padding:25px 10px 15px 10px;
+}
+
+pre {
+	color:black;
+	margin-top:45px;
+}
+
+h1 {
+	margin-top:2px;
+	color:maroon;
+}
+
+.feedback-box {
+	background-color:;
+	position:relative;
+	margin:4% auto;
+	height:950px;
+	width:500px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.8);
+} 
+
+.feedback-box:hover{
+	background-color: tan;
+}
+
+.same-box {
+	text-align:left;
+	color:white;
+	position:absolute;
+	left:0;
+	right:0;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+}
+
+.input-box {
+	top:0;
+	right:0;
+	color:black;
+	display:block;
+	box-sizing:border-box;
+	margin-bottom:20px;
+	padding:4px;
+	width:220px;
+	height:32px;
+	border:1px solid #fff;
+	outline: none;
+	font-size:15px;
+	transition:0.4s;
+	background:transparent;
+} 
+
+.submit-btn {
+	margin-bottom:28px;
+	width:120px;
+	height:32px;
+	background:#f44336;
+	border:none;
+	border-radius:2px;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+.submit-btn:hover,
+.submit-btn:focus
+{
+	background:#ff5722;
+	transition:0.2s;
+}
+
+button a {
+	padding-left:2px;
+	padding-right:2px;
+	color:white;
+	text-decoration:none;
+	background:#ff5722;
+	transition:0.2s;
+}
+
+::-webkit-input-placeholder{
+	color: white;
+}
+
+pre i {
+	color:white;
+}
+
+.block{
+	border:none;
+	background:#ff5722;
+	padding:10px 20px;
+	font-size:16px;
+	cursor:pointer;
+	text-align:center;
+}
