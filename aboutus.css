@@ -1,0 +1,143 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700'; 
+
+body { 
+	margin:0;
+ }
+
+header {
+	background:black;
+	color:white;
+	padding:0px 0px 0px 0px;
+	height:45px;
+}
+
+header h1{
+	display:inline;
+	font-family:'Oswald',sans-serif;
+	font-weight: 400;
+	font-size:24px;
+	float:left;
+	margin-top:5px;
+	margin-left: 4px;
+	margin-right:10px;
+}
+nav ul{
+	display:inline;
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:12px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#nav{
+	font-family:'Montserrat',sans-serif;
+}
+.homered{
+	background-color:red;
+	padding:25px 5px 15px 5px;
+}
+.divider{
+	background-color:red;
+	height:5px;
+	padding: 0px;
+}
+.homeblack:hover{
+	background-color:blue;
+	padding:25px 10px 15px 10px;
+}
+
+.team-section {
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding:60px;
+}
+
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color:white;
+	font-size:40px;	
+}
+
+.border {
+	display:block;
+	margin:auto;
+	width:160px;
+	height: 3px;
+	background:#3498db;
+	margin-bottom: 40px;
+}
+
+.ps {
+	margin-bottom: 40px;
+}
+
+.ps a {
+	display: inline-block;
+	margin:0 30px;
+	width:160px;
+	height:160px;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.ps a img {
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+
+.ps a:hover>img {
+	filter:none;
+}
+
+.section {
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+
+.section:target{
+	height:auto;
+}
+
+.name {
+	display:block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform:uppercase;
+	font-size:22px;
+}
+
+button a {
+	padding-left:2px;
+	padding-right:2px;
+	color:white;
+	text-decoration:none;
+	background:#ff5722;
+	transition:0.2s;
+}
+
+.block{
+	border:none;
+	background:#ff5722;
+	padding:10px 20px;
+	font-size:16px;
+	cursor:pointer;
+	text-align:center;
+}

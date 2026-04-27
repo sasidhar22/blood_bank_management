@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<style type="text/css">
+		body {
+			background-image: url("signupimg.jpg");
+			background-size: cover;
+			height:100%;
+			width:100%;
+			background-color:lightgray; 
+		}
+	</style>
+<script type="text/javascript">
+ function validator()
+{
+          if(document.getElementById('username').value == "")
+{
+            alert("please enter the username");
+}
+          else
+{
+            if(document.getElementById('mail').value == "")
+  {
+            alert("please enter email");
+  }
+            else
+      {
+          if(document.getElementById('password').value == "")
+  {
+            alert("please enter password");
+  }
+     else
+     {
+          if(document.getElementById('repassword').value == document.getElementById('password').value)
+  {
+             alert("signup successfull");
+  }
+         else
+           {
+                alert("please enter repassword same as password");
+           }
+     }
+      }
+     
+}
+}
+        </script>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Blood Bank Management</h1>  
+			<ul id="nav"> 
+				<li><a class="homeblue" href="index.html" title="Dear user this is the home page.">HOME</a></li>
+				<li><a class="homeblue" href="bloodstats.html" title="graph of blood donations in the previous years">STATISTICAL DATA</a></li>
+				<li><a class="homeblue" href="donate.html" title="donate and save lives">DONATE</a></li>
+				<li><a class="homeblue" href="aboutus.html" title="find some information about us here..">ABOUT US</a></li>
+				<li><a class="homeblue" href="login.html" title="already a user? please login here">LOGIN</a></li>
+				<li><a class="homesignup" href="#" title="new user? create your account here">SIGN UP</a></li>
+				<li><a class="homeblue" href="feedback.html" title="Give your feedback on our website here">FEEDBACK</a></li>
+			</ul> 
+		</nav>
+	</header>
+<form name="signup">
+	<div class="divider"></div>
+	<div class="login-box">
+	<div class="left-box">
+		<h1>Sign Up</h1>
+		<input type="text" class="input-box" placeholder="enter username" id="username" maxlength="15">
+		<input type="email" class="input-box" placeholder="enter email id" id="mail">
+		<input type="password" class="input-box" placeholder="enter password" id="password">
+		<input type="password" class="input-box" placeholder="Re-type password" id="repassword">
+		<input type="submit" class="submit-btn" value="Sign Up" onclick="validator()">
+	</div>
+</form>
+		<div class="right-box">
+			<span class="right-title">Sign Up with<br/>Social Network</span>
+			<button class="social facebook"><a href="https://www.facebook.com/">Signup with Facebook<a></button>
+			<button class="social twitter"><a href="https://twitter.com/login?lang=en">Signup with Twitter</a></button>
+			<button class="social google"><a href="https://accounts.google.com/">Signup with Google</a></button>
+		</div>
+		<div class="or">OR</div>
+	</div>
+</body>
+</html>
